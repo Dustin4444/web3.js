@@ -1271,12 +1271,14 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@cookbookdev/docsbot@^4.24.4":
-  version "4.24.7"
-  resolved "https://registry.yarnpkg.com/@cookbookdev/docsbot/-/docsbot-4.24.7.tgz#98288b5018e068b1b41a3913fc09c2e48447418c"
-  integrity sha512-XqEaIBX3iFRQoM5dNm06UVYnBZ19BiV2mw3DWj4RcHtViGuOtRw943/Ab6IJc9cN+tJqE5OV9vb6OQUSttVmiw==
+"@cookbookdev/docsbot@^4.25.8":
+  version "4.25.10"
+  resolved "https://registry.yarnpkg.com/@cookbookdev/docsbot/-/docsbot-4.25.10.tgz#c6c9f25c34aaec32dd08127cd5018ca4dfba88aa"
+  integrity sha512-obSkzhxHIneFb2FFuXn84IM277oAAIVaqKdSeEjXa+ISb2yphLPNRCMkXrelQfwROQAfk5TmfBxLsvpk64UKww==
   dependencies:
     "@cookbookdev/sonner" "1.5.1"
+    "@floating-ui/devtools" "^0.2.2"
+    "@floating-ui/react-dom" "^2.1.2"
     "@headlessui/react" "^1.7.18"
     "@headlessui/tailwindcss" "^0.2.0"
     "@lingui/detect-locale" "^4.11.4"
@@ -1312,6 +1314,7 @@
     clsx "^2.1.0"
     cmdk-react17 "^1.0.0"
     color2k "^2.0.3"
+    composed-offset-position "^0.0.6"
     fflate "^0.8.2"
     file-saver "^2.0.5"
     framer-motion "^6.5.1"
@@ -1855,6 +1858,11 @@
   dependencies:
     "@floating-ui/utils" "^0.2.5"
 
+"@floating-ui/devtools@^0.2.2":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/devtools/-/devtools-0.2.3.tgz#071f069e5a25e6f2a63ed68584a11ff7c9298947"
+  integrity sha512-ZTcxTvgo9CRlP7vJV62yCxdqmahHTGpSTi5QaTDgGoyQq0OyjaVZhUhXv/qdkQFOI3Sxlfmz0XGG4HaZMsDf8Q==
+
 "@floating-ui/dom@^1.0.0":
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.8.tgz#45e20532b6d8a061b356a4fb336022cf2609754d"
@@ -1867,6 +1875,13 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.1.tgz#cca58b6b04fc92b4c39288252e285e0422291fb0"
   integrity sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==
+  dependencies:
+    "@floating-ui/dom" "^1.0.0"
+
+"@floating-ui/react-dom@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz#a1349bbf6a0e5cb5ded55d023766f20a4d439a31"
+  integrity sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A==
   dependencies:
     "@floating-ui/dom" "^1.0.0"
 
@@ -4533,6 +4548,11 @@ common-path-prefix@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/common-path-prefix/-/common-path-prefix-3.0.0.tgz#7d007a7e07c58c4b4d5f433131a19141b29f11e0"
   integrity sha512-QE33hToZseCH3jS0qN96O/bSh3kaw/h+Tq7ngyY9eWDUnTlTNUyqfqvCXioLe5Na5jFsL78ra/wuBU4iuEgd4w==
+
+composed-offset-position@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/composed-offset-position/-/composed-offset-position-0.0.6.tgz#0b027a880401ed5a9f777f59134ff606b406d0a7"
+  integrity sha512-Q7dLompI6lUwd7LWyIcP66r4WcS9u7AL2h8HaeipiRfCRPLMWqRx8fYsjb4OHi6UQFifO7XtNC2IlEJ1ozIFxw==
 
 compressible@~2.0.16:
   version "2.0.18"
